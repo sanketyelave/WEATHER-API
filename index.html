@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER</title>
+    <link rel="shortcut icon" type="image" href="weather1.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Merriweather:wght@700&family=Poppins:wght@700&display=swap"
+        rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Merriweather:wght@400;700&family=PT+Serif:ital@1&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Merriweather:wght@400;700&family=PT+Serif:ital@1&family=Poppins:wght@700&family=Rubik&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    #cityName {
+        color: black;
+        margin-left: 0rem;
+        font-size: 5rem;
+    }
+</style>
+
+<body>
+    <div id="head">
+        <nav>
+            <div class="logo">
+
+                <h1>
+                    <img src="weather1.jpeg" alt="🌦️" class="weat"> WEATHER
+                </h1>
+            </div>
+
+            <div class="search"> <input type="value" placeholder="Enter your CITY 🌞" id="city">
+                <button id="submit" type="submit" onclick="getweather('mumbai')"> Search</button>
+            </div>
+        </nav>
+        <h2 class="nc"> Weather in <span id="cityName"></span>:
+        </h2>
+        <div id="content">
+            <div class="container">
+                <h1>Cloud PCT: <br>
+                    <h3>☁️ <h2>:</h2><span id="a1"> </span>
+                        <h2>pct</h2>
+                    </h3>
+                </h1>
+            </div>
+            <div class="container cs">
+                <h1> Temperature: <br>
+                    <h3>🌡️ <h2>:</h2><span id="a8"></span>
+                        <h2>°C</h2>
+                </h1>
+                </h3>
+                <hr>
+                <h1>Feels like: <br>
+                    <h3> 🌍 <h2>:</h2><span id="a2"></span>
+                        <h2>°C</h2>
+                </h1>
+                </h3>
+            </div>
+            <div class="container">
+                <h1>MAX-Temperature: <br>
+                    <h3>☀️ <h2>:</h2><span id="a4"></span>
+                        <h2>°C</h2>
+                </h1>
+                </h3>
+                <hr>
+                <h1>MIN-Temperature: <br>
+                    <h3>🌞 <h2>:</h2><span id="a5"></span>
+                        <h2>°C</h2>
+                </h1>
+                </h3>
+            </div>
+            <div class="container cs">
+                <h1>Humidity: <br>
+                    <h3>🌩️ <h2>:</h2> <span id="a3"></span>
+                        <h2>g.m-3 </h2>
+                </h1>
+                </h3>
+            </div>
+            <div class="container">
+                <h1>Sun Rise: <br>🌤️ : <span id="a6"></span></h1>
+                <hr>
+                <h1>Sun Set: <br> ⭐ :<span id="a7"></span></h1>
+            </div>
+            <div class="container cs">
+                <h1>Wind speed(km/hr): <br> ✈️ :<span id="a0"></span></h1>
+                <hr>
+                <h1>Wind degrees(km/hr): <br> 📐 :<span id="a9"></span></h1>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>

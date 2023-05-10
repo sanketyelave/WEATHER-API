@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(weather1.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: center;
+    background-size: 130rem;
+    background-color: rgba(41, 138, 217, 0.2);
+    height: 140rem;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(249, 251, 253, 0.6);
+    backdrop-filter: blur(10px);
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+
+}
+
+.logo {
+    position: relative;
+    margin-left: 2%;
+}
+
+h1 {
+    display: inline;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.weat {
+    position: relative;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+
+.search {
+    position: relative;
+    right: 5%;
+    font-size: 3rem;
+}
+
+#city {
+    font-size: 2rem;
+    background-color: rgba(214, 221, 227, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 0.4rem;
+    border-color: rgba(249, 251, 253, 0.2);
+    padding: 0.2rem 0.3rem 0.2rem 0.6rem;
+
+}
+
+#submit {
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: rgba(41, 138, 217, 255);
+    border-radius: 0.4rem;
+    border-color: rgba(41, 138, 217, 0.2);
+    padding: .2rem 1rem 0.2rem 1rem;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(39, 105, 158);
+    padding: .3rem 1.2rem 0.3rem 1.2rem;
+}
+
+#city:hover {
+    border-radius: 0.6rem;
+    border-color: rgba(41, 138, 217, 0.3);
+    padding: 0.5rem 0.7rem 0.5rem 1rem;
+}
+
+.nc {
+    position: relative;
+    left: 30%;
+    top: 5.5rem;
+    font-size: 5rem;
+    text-decoration: underline;
+    margin-bottom: 8rem;
+    font-family: rubik;
+
+}
+
+.container {
+    position: relative;
+    height: 20rem;
+    width: 40rem;
+    background-color: rgba(249, 251, 253, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    z-index: 3;
+    margin-top: 8rem;
+    left: 15%;
+    font-family: rubik;
+    margin-bottom: 2rem;
+
+}
+
+.cs {
+    position: relative;
+    left: 55%;
+
+}
+
+span {
+    margin-left: 5%;
+    color: rgba(41, 138, 217, 0.9);
+    font-size: 3.6rem;
+}
+
+h1 {
+    font-size: 3.742rem;
+    text-decoration: none;
+    display: inline;
+}
+
+h3 {
+    font-size: 4rem;
+    display: inline;
+    text-decoration: none;
+    color: rgba(41, 138, 217, 0.9);
+}
+
+h2 {
+    display: inline;
+    font-size: 2.9rem;
+}
+
+
+
+@media (max-width:932px) {
+    html {
+        font-size: 46.23%;
+    }
+
+    body {
+        background-size: 240rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:745px) {
+    html {
+        font-size: 36.83%;
+    }
+
+    body {
+        background-size: 260rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:635px) {
+    html {
+        font-size: 31.39%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:535px) {
+    html {
+        font-size: 26.45%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:440px) {
+    html {
+        font-size: 21.75%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:350px) {
+    html {
+        font-size: 19.53%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:335px) {
+    html {
+        font-size: 16.56%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:315px) {
+    html {
+        font-size: 15.57%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        margin-top: 18rem;
+    }
+}
+
+@media (max-width:220px) {
+    html {
+        font-size: 13.87%;
+    }
+
+    body {
+        background-size: 660px;
+    }
+
+    .container {
+        height: 30rem;
+        width: 40rem;
+        margin-top: 18rem;
+    }
+}
