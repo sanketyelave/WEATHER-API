@@ -40,6 +40,7 @@ h1 {
     display: inline;
     font-size: 3rem;
     margin-left: 1rem;
+    margin-top:0.8rem;
 }
 
 img {
@@ -274,6 +275,36 @@ h2 {
         margin-top: 18rem;
     }
 }
+@media (max-width:308px) {
+    html {
+        font-size: 15.22%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+@media (max-width:300px) {
+    html {
+        font-size: 14.83%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
 @media (max-width:295px) {
 
     html {
@@ -298,6 +329,36 @@ h2 {
 
     }
 
+}
+@media (max-width:285px) {
+    html {
+        font-size: 14.09%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
+@media (max-width:275px) {
+    html {
+        font-size: 13.59%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
 }
 @media (max-width:265px) {
     html {
