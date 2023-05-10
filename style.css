@@ -274,7 +274,46 @@ h2 {
         margin-top: 18rem;
     }
 }
+@media (max-width:295px) {
 
+    html {
+
+        font-size: 14.58%;
+
+    }
+
+    body {
+
+        background-size: 280rem;
+
+    }
+
+    .container {
+
+        height: 25rem;
+
+        width: 45rem;
+
+        margin-top: 18rem;
+
+    }
+
+}
+@media (max-width:265px) {
+    html {
+        font-size: 13.10%;
+    }
+
+    body {
+        background-size: 280rem;
+    }
+
+    .container {
+        height: 25rem;
+        width: 45rem;
+        margin-top: 18rem;
+    }
+}
 @media (max-width:220px) {
     html {
         font-size: 13.87%;
